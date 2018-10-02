@@ -1,1 +1,47 @@
-style.css
+* { 
+    box-model: border-box;
+    font-family: Helvetica, sansserif;
+}
+
+
+body { 
+    margin: auto;
+    background-color: #ccc;
+}
+
+header { 
+    margin: 40px auto 0 auto;
+    width: 60%;
+    background-color: darkseagreen;
+    padding: 60px;
+    text-align: center;
+}
+
+main { 
+    margin: 0px auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 60px;
+    height: 50vh;
+}
+
+.links { 
+    width: 70%;
+    /* border: 1px solid #333; */
+    display: inline;
+    float: left;
+    margin: 0;
+}
+
+.resources { 
+    width: 25%;
+    /* border: 1px solid #333; */
+    display: inline;
+    float: left;
+    margin: 0;
+}
+
+
+
+
+
