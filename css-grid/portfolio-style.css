@@ -1,0 +1,136 @@
+/* styles for a css-grid workshop 
+* Brought to you by Alanna Risse
+*/
+
+* {box-sizing: border-box;}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0 auto;
+}
+
+a {
+	color: #b4341a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7e2514;
+}
+
+.a-style {color: #b4341a;}
+
+/* HEADER STYLES */
+header {
+	padding: 60px;
+	height: 300px;
+	background-image: url('https://picsum.photos/1200/320/?random');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: 50% 50%;
+	color: #fff;
+}
+
+header h1 {
+	font-size: 48px;
+	font-weight: 400;
+    text-shadow: 1px 1px 2px #333;
+}
+
+header h2 {
+	font-weight: 400;
+	text-shadow: 1px 1px 2px #333;
+}
+
+nav ul { 
+	width: 100%;
+	background-color: #333;
+	margin: 0;
+	padding: 10px;
+	list-style: none; 
+}
+
+/* NAV STYLES */
+nav li {
+	font-weight: 700;
+	text-align: center;
+}
+nav a { color: #fff; }
+nav a:hover { color: #fc5f40; }
+
+main {
+	padding: 60px;
+}
+
+main h2 {
+	margin-top: 60px;
+}
+
+p {
+	font-weight: 300;
+}
+
+.portfolio {
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.portfolio article {
+    background-color: #eee;
+    padding: 1em;
+}
+
+.feature {
+
+}
+
+.proj-thumb {
+	box-shadow: 2px 2px 5px #999;
+	width: 100%;
+	height: auto;
+}
+
+
+.go-link:after {
+	content: ' \21D2';
+}
+.round {
+	border-radius: 50%;
+}
+
+.why {
+	text-align: center;
+}
+
+.more {}
+
+blockquote {
+	quotes: "\201C""\201D""\2018""\2019";
+	font-weight: 300;
+}
+
+blockquote:before {
+	content: open-quote;
+}
+blockquote:after {
+	content: close-quote;
+}
+
+footer {
+	background-color: #333;
+	height: 120px;
+
+}
+ul.social { 
+	width: 100%;
+	margin-top: 0;
+	padding-top: 40px;
+	list-style-type: none; 
+}
+.social li {
+	color: #fff;
+}
+.social a {
+	color: #fff;
+}
