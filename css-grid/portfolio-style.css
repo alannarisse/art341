@@ -58,6 +58,7 @@ nav li {
 nav a { color: #fff; }
 nav a:hover { color: #fc5f40; }
 
+/* MAIN STYLES */
 main {
 	padding: 60px;
 }
