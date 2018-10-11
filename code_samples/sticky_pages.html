@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sticky pages</title>
+    <style>
+        body {margin:0;}
+        section {
+            height: 150vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: sticky;
+            top: -1px;
+        }
+        section:nth-child(1) {
+            background-color:aliceblue;
+        }
+        section:nth-child(2) {
+            background-color:antiquewhite;
+        }
+        section:nth-child(3) {
+            background-color:cadetblue;
+        }
+    </style>
+</head>
+<body>
+   
+   <section>
+       
+       <p>Some stuff</p>
+       
+   </section>
+   <section>
+       
+       <p>Some other stuff</p>
+       
+   </section>
+   <section>
+       
+       <p>Some third stuff</p>
+       
+   </section>
+    
+</body>
+</html>

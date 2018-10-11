@@ -22,14 +22,13 @@ main {
     width: 60%;
     background-color: #fff;
     padding: 60px;
-    height: 50vh;
+    height: auto;
 }
 
 .links { 
     width: 70%;
     /* border: 1px solid #333; */
     display: inline;
-    float: left;
     margin: 0;
 }
 
