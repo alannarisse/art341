@@ -3,14 +3,14 @@
 <head>
 	<title>Background Image Swap</title>
 	<style>
-	body {
+	.home {
 		/* set a default background image if you want */
 		background-image: url('http://placekitten.com/1200/900');
 		background-size: cover;
-		background-position: center center;
+		background-position: top center;
+		background-repeat: none;
 	}
-	nav a { font-weight: bold; font-size: 24px; background-color: #ccc; padding: 8px 12px; text-decoration: none; margin: 10px; color: #666;}
-	p { font-weight: bold; font-size: 24px; margin: 12px 40px;}
+
 
 	/* you'll need four classes for each background image: */
 	.bkgrnd_one { background-image: url('http://placekitten.com/1201/900'); }
@@ -21,7 +21,7 @@
 
 	</style>
 </head>
-<body>
+<body class="home">
 
 	<header>
 		<h1>Background image swap</h1>
