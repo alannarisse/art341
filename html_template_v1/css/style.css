@@ -11,22 +11,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 *----------------------------------------------------------------------*/
 
-body .home {
-    background-color: red;
+body {
+
 }
 
+h1 {
 
-header h1 {
- margin-top: 60px;
-    background-color: #000;
-    padding: 40px;
-color: #fff;
-Font-weight: 24px;
-    font-family: verdana;
 }
 
 p {
- background-image: url('../img/blue_circle.png');
+
 }
 
 a {
@@ -37,10 +31,14 @@ a:hover {
 	
 }
 
+.container {
+	width: 800px;
+	margin: 50px auto;
+}
+
 nav {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
 }
 
 
