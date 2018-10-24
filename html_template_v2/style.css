@@ -31,8 +31,8 @@ a:hover {
 	
 }
 
-.container {
-	width: 800px;
+main {
+	width: 100%;
 	margin: 50px auto;
 }
 
@@ -40,6 +40,7 @@ nav {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 }
+.logo { width: 40px; }
 
 .grid-2col {
 	display: grid;
@@ -59,4 +60,12 @@ nav {
     content: "";
     clear: both;
     display: table;
+}
+
+/* Media Queries
+/* On screens that are 768px or less, use these styles */
+@media screen and (max-width: 768px) {
+  .example-class {
+    background-color: blue;
+  }
 }
