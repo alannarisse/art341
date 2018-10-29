@@ -1,0 +1,6 @@
+# Prevent Google and other search engines from tracking this site
+Header set X-Robots-Tag "noindex, nofollow"
+
+# Turn on SVG support
+AddType image/svg+xml svg
+AddType image/svg+xml svgz
