@@ -1,3 +1,5 @@
+/* DEFAULT */
+
 * { margin: 0; }
 
 
@@ -36,6 +38,7 @@ nav a:hover { background-color: #333; }
 .about nav a:hover { background-color: #54542B; }
 .about .active { background-color: #54722B; }
 
+/* HEADER */
 
 header {
 	height: 120px;
@@ -94,6 +97,11 @@ main {
 	grid-gap: 1em;
 	margin-bottom: 2em;
 }
+
+.about .grid {
+	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
 
 footer {
 	background-color: #000;
