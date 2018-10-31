@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG</title>
+    <style>
+
+        #flower-power { 
+        	width: 400px;
+        	animation-name: flowerz;
+        	animation-duration: 10s;
+        	animation-iteration-count: infinite;
+        	animation-timing-function: ease-in;
+        	animation-fill-mode: forwards;
+        	transform-origin: 50% 50%;
+        }
+		.flower-box { 
+			width: 400px;
+			margin: 60px;
+			 }
+/*		#flower-power:hover {transform: rotate(80deg);}
+*/
+		@keyframes flowerz {
+        	0% {
+        		transform: rotate(0deg);
+    		}
+    		100% {
+        		transform: rotate(360deg);
+    		}
+        }
+
+    </style>
+</head>
+<body>
+   <div class="flower-box">
+   	<svg id="flower-power" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.16 153.16"><defs><style>.cls-1{fill:#d2de26;}.cls-2{fill:#f49ac1;}</style></defs><title>flower</title><g id="petals"><path class="cls-1" d="M138.42,181.91c0-172.3,172.3,0,0,0s0-172.3,0,0-172.3,0,0,0S138.42,354.21,138.42,181.91Z" transform="translate(-61.84 -105.33)"/></g><g id="stamen"><circle class="cls-2" cx="76.58" cy="76.58" r="16.67"/></g></svg>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script>
+		$('#flower-power').on('click', function(){
+			$('.cls-1').css('fill', '#990000');
+		});
+	</script>
+    
+</body>
+</html>
