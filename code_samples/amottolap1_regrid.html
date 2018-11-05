@@ -6,7 +6,7 @@
 	<style>
 	body {background-color: black; color: white;}
 
-	.grid1 {
+	.grid1, .grid2 div {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 1em;
@@ -15,11 +15,16 @@
 
 /*		 min-height: 400px;
 */	}
-	.grid1 div {
+	.grid1 div, .grid2 div {
 		padding: 20px;
 		margin-bottom: 60px;
 	}
 
+	.grid1 { 
+		background-image: url('http://placekitten.com/1200/900');
+		background-size: cover;
+		background-position: center center;
+	 }
 	.feature { width: 100%; }
 </style>
 </head>
@@ -39,7 +44,7 @@
 	</section>
 	<section>
 		<h2>Header3</h2>
-		<div class="grid1">
+		<div class="grid2">
 			<div><img class="feature" src="http://placekitten.com/600/600"></div>
 			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eveniet, recusandae dicta! Amet rem sequi fugit mollitia consequatur architecto dolores vitae dolor. Quia doloremque maiores, voluptatibus quae ullam enim mollitia!</div>
 			
