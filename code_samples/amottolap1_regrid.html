@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<style>
-	body {background-color: black; color: white;}
+	body {background-color: #999; color: white;}
 
 	.grid1, .grid2 div {
 		display: grid;
@@ -25,7 +25,26 @@
 		background-size: cover;
 		background-position: center center;
 	 }
+	 .grid2 { 
+		background-image: url('http://placekitten.com/1203/900');
+		background-size: cover;
+		background-position: center center;
+	 }
 	.feature { width: 100%; }
+
+	h2 {
+		background-color: black;
+		display: inline-block;
+		width: 40%;
+		min-width: 600px;
+		padding: 10px;
+	}
+
+	h2.orange { background-image: url('http://placekitten.com/900/60');
+	background: cover;
+	background-position: center center;
+
+	 }
 </style>
 </head>
 <body>
@@ -36,7 +55,7 @@
 	</section>
 
 	<section>
-		<h2>Header2</h2>
+		<h2 class="orange">Header2</h2>
 		<div class="grid1">
 			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eveniet, recusandae dicta! Amet rem sequi fugit mollitia consequatur architecto dolores vitae dolor. Quia doloremque maiores, voluptatibus quae ullam enim mollitia!</div>
 			<div><img class="feature" src="http://placekitten.com/600/600"></div>
