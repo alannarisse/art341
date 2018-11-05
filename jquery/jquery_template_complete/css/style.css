@@ -1,0 +1,193 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* General Styles */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #333;
+	margin: 20px;
+	color: #333;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 200;
+	font-size: 19px;
+}
+
+h1 {
+	margin: 0 0 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 1.5em;
+}
+
+h2 {
+	margin: 2em 0 0;
+}
+
+h3 {
+	background: #666;
+	color: #ddd;
+	font-size: 18px;
+	margin: 1em 0 0;
+	padding: 3px 6px;
+	cursor: pointer;
+}
+
+p {
+	line-height: 1.3em;
+	font-weight: 100;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.navbox, li, .box p, .sidebar h2, .bigbutton, .bigbutton2{
+	cursor: pointer;
+}
+/* Site-Specific Styles */
+
+.container {
+	position: relative;
+	width: 1000px;
+	margin: 20px auto;
+}
+
+.content {
+	height: auto;
+}
+
+header, nav, section, footer, .sidebar, .main {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+header {
+	background: #666;
+	color: #ddd;
+	margin: 0 0 20px;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 24px;
+	margin: 0;
+}
+
+
+li {
+	width: 200px;
+}
+
+.main {
+	background: #f4f4f4;
+	margin-left: 220px;
+	padding: 20px;
+	width: 780px;
+	height: auto;
+}
+
+
+.banner {
+	width: 100%;
+	height: 300px;
+	border: 1px solid #333;
+	padding: 20px;
+	font-size: 42px;
+	background: #ccc;
+	color: #fff;
+}
+
+.thumb {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin: 20px 20px 20px 0;
+	border: 1px solid #333;
+	cursor: pointer;
+}
+
+.thumb:hover {
+	opacity: .7;	
+}
+
+.one {
+	background: #ac6c6c;
+}
+
+.two {
+	background: #6cab6d;
+}
+
+.three {
+	background: #746cab;
+}
+
+.four {
+	background: #aba56c;
+}
+
+
+
+.collapsable h3:hover {
+	background: #888;	
+}
+
+.sidebar {
+	background: #c2c2c2;
+	float: left;
+	width: 200px;
+	padding: 20px;
+	clear:both;
+	height: 616px;
+	margin-right: 20px;
+}
+
+.sidebar div {
+	display: inline-block;
+	width: 48%;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sidebar div:hover {
+	opacity: .7;	
+}
+
+.checklist {
+	padding: 1em;
+	background: #eee;
+	color: #333;	
+}
+
+.checklist li {
+	width: 100%;
+	background: none;
+	padding: 3px;
+	padding-left: 20px;
+	margin: 5px 0 5px 0;
+}
+
+.checklist .finished {
+	color: #999;
+	text-decoration: line-through;
+}
+
+footer{
+	background: #f4f4f4;
+	margin-top: 20px;
+	padding: 20px;
+	width: 100%;
+}
