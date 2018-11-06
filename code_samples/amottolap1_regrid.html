@@ -15,21 +15,23 @@
 
 /*		 min-height: 400px;
 */	}
+
+section {border: 1px solid limegreen;}
+section .orange-bk {
+			background-image: url('http://placekitten.com/1200/900');
+		background-size: cover;
+		background-position: center center;
+}
+section .dark-bk {
+		background-image: url('http://placekitten.com/1203/900');
+		background-size: cover;
+		background-position: center center;
+	}
 	.grid1 div, .grid2 div {
 		padding: 20px;
 		margin-bottom: 60px;
 	}
 
-	.grid1 { 
-		background-image: url('http://placekitten.com/1200/900');
-		background-size: cover;
-		background-position: center center;
-	 }
-	 .grid2 { 
-		background-image: url('http://placekitten.com/1203/900');
-		background-size: cover;
-		background-position: center center;
-	 }
 	.feature { width: 100%; }
 
 	h2 {
@@ -51,22 +53,22 @@
 
 	<section>
 		<h1>Header</h1>
-		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente officiis totam necessitatibus modi porro velit ipsum iure, deleniti quas, laborum consectetur minus mollitia eos qui aperiam, incidunt, rem esse quae.</div>
+		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente officiis totam necessitatibus modi porro velit ipsum iure, deleniti quas, laborum consectetur minus mollitia eos qui aperiam, incidunt, rem esse quae.
+		</div>
 	</section>
 
-	<section>
+	<section class="orange-bk">
 		<h2 class="orange">Header2</h2>
 		<div class="grid1">
 			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eveniet, recusandae dicta! Amet rem sequi fugit mollitia consequatur architecto dolores vitae dolor. Quia doloremque maiores, voluptatibus quae ullam enim mollitia!</div>
 			<div><img class="feature" src="http://placekitten.com/600/600"></div>
 		</div>
 	</section>
-	<section>
+	<section class="dark-bk">
 		<h2>Header3</h2>
-		<div class="grid2">
+		<div class="grid1">
 			<div><img class="feature" src="http://placekitten.com/600/600"></div>
 			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eveniet, recusandae dicta! Amet rem sequi fugit mollitia consequatur architecto dolores vitae dolor. Quia doloremque maiores, voluptatibus quae ullam enim mollitia!</div>
-			
 		</div>
 	</section>
 
