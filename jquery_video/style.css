@@ -49,6 +49,11 @@ nav {
 }
 
 .img-full {width: 100%;}
+
+.first-vid { display: none; }
+
+.second-vid { display: none; }
+
 /*----------------------------------------------------------------------*
 
 	Miscellaneous
