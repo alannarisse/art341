@@ -38,21 +38,35 @@ main, header {
 }
 main {
 	width: 100%;
-	margin: 50px auto;
+	margin: auto;
+    margin-top: 200px;
 }
 
 header {
     display: grid;
 	grid-template-columns: 40% 20% 20%;
 }
+.sticky {
+      position: fixed;
+      top: 0;
+      left: 0;
+/*      right: 0;
+*/      width: 100%;
+      background-color: rgba(172, 255, 208, 0.6);
+      padding: 20px;
+      /*overflow: hidden;*/
+}
+
 .nav1 {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 }
 
 .nav2 {
+    text-align: center;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+    width: 100%;
 }
 
 .feature-left, .feature-right { 

@@ -1,0 +1,10 @@
+body {
+	font-family: helvetica;
+	width: 900px;
+	margin: auto;
+}
+
+.background_box {
+	height: 300px;
+	border: 1px solid #ccc;
+}
