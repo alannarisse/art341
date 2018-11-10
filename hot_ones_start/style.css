@@ -1,0 +1,188 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Better box model */
+* { box-sizing: border-box; }
+
+
+/*----------------------------------------------------------------------*
+
+	General Styles
+
+*----------------------------------------------------------------------*/
+
+body {
+background-image: url('http://placekitten.com/1200/1600');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: helvetica;
+}
+
+h1 {
+
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+a {
+
+}
+
+a:hover {
+	
+}
+
+main {
+	width: 100%;
+	margin-left: 50px;
+	margin-top: 90px;
+	background-color: red;
+	height: 1250vh;
+	position: relative;
+	z-index: -1;
+}
+
+header { 
+	position: relative;
+ }
+
+nav {
+	background-image: url(http://placekitten.com/250/1600);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 100px;
+	height: 90vh;
+	width: 80px;
+	top: 60px;
+}
+
+nav a { 
+	display: block;
+	text-decoration: none;
+	font-size: 36px;
+}
+
+.vert-text { 
+	transform: rotate(270deg);
+	transform-origin: left top 0;
+}
+
+.goldblum-link { 
+	margin-top: 80px;
+	margin-left: 20px;
+	color: #333;
+}
+
+.lee-link { 
+	margin-top: 40px;
+	margin-left: 60px;
+	color: yellow;
+}
+
+.palmer-link { 
+	margin-top: 60px;
+	margin-left: 40px;
+	color: green;
+}
+
+
+#hot-ones-logo {
+	width: 280px; 
+	stroke-width: 6px;
+	margin-top: -16px;
+	margin-left: -16px;
+}
+
+.goldblum-content { 
+	display: grid;
+	grid-template-columns: 70% 30%;
+	position: relative;
+	width: 50%;
+	position: absolute;
+	right: 25%;
+	color: gold;
+	top: 200px;
+
+}
+.goldblum-bottle { margin-top: -220px; }
+.gold-text { margin-top: -100px; }
+
+.goldblum-content .gold-vid {
+	grid-column: 1 / -1;
+	border: 1px solid white;
+}
+.goldblum-content .gold-vid div {
+	width: 640px;
+	height: 460px;
+	background-color: gold;
+	margin-left: -20px;
+}
+.goldblum-content .gold-vid  img { 
+	margin-left: 0;
+	margin-top: -520px;
+}
+
+
+
+.lee-content { 
+	display: grid;
+	grid-template-columns: 30% 70%;
+	position: relative;
+	width: 50%;
+	position: absolute;
+	left: 25%;
+	color: gold;
+	top: 1200px;
+
+}
+.lee-bottle { margin-top: -250px; margin-left: 40px; }
+
+.lee-content .lee-vid {
+	grid-column-end: 1 / -1;
+	margin-top: -160px;
+	z-index: -2;
+}
+.lee-content .lee-vid div {
+	width: 640px;
+	height: 460px;
+	background-color: gold;
+	margin-left: -20px;
+}
+.lee-content .lee-vid  img { 
+	margin-left: 0;
+	margin-top: -520px;
+}
+
+
+.img-full {width: 100%;}
+/*----------------------------------------------------------------------*
+
+	Miscellaneous
+
+*----------------------------------------------------------------------*/
+
+/* Forces a box filled with floated elements to wrap around child elements */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Media Queries
+/* On screens that are 768px or less, use these styles */
+@media screen and (max-width: 768px) {
+  .example-class {
+    background-color: blue;
+  }
+}
