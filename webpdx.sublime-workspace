@@ -1,0 +1,624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"grid-column",
+				"grid-column-end\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"background-",
+				"background-size\tproperty"
+			],
+			[
+				"grid-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"justify",
+				"justify-all\ttext-align"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"transition",
+				"transition-property\tproperty"
+			],
+			[
+				"grid-auto",
+				"grid-auto-columns\tproperty"
+			],
+			[
+				"gird-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"grid-template-",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-template",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"list-st",
+				"list-style-type\tproperty"
+			],
+			[
+				"image",
+				"imageFull"
+			],
+			[
+				"container",
+				"container-fluid"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"bac",
+				"backface-visibility"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"background-c",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "disney-poster/index.html",
+			"settings":
+			{
+				"buffer_size": 1788,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dirt-harry/index.html",
+			"settings":
+			{
+				"buffer_size": 5358,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "code_samples/time.html",
+			"settings":
+			{
+				"buffer_size": 704,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 299.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jsx",
+				"Set Syntax: JavaScript (Extended)"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"vue",
+				"VUEFormatter"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"react",
+				"Set Syntax: React Templates"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"emm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"handl",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"javac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Install Package Control"
+			],
+			[
+				"set hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"set text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"set java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alanna/Sites/web.pdx.edu",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples",
+		"/Users/alanna/Sites/web.pdx.edu/dirt-harry",
+		"/Users/alanna/Sites/web.pdx.edu/totoro",
+		"/Users/alanna/Sites/web.pdx.edu/totoro/yataimura",
+		"/Users/alanna/Sites/web.pdx.edu/totoro/yataimura/js"
+	],
+	"file_history":
+	[
+		"/Users/alanna/Sites/web.pdx.edu/disney-poster/css/style.css",
+		"/Users/alanna/Sites/web.pdx.edu/dirt-harry/css/style.css",
+		"/Users/alanna/Sites/web.pdx.edu/dirt-harry/index.html",
+		"/Users/alanna/Sites/web.pdx.edu/totoro/yataimura/css/style.css",
+		"/Users/alanna/Sites/web.pdx.edu/totoro/yataimura/index.html",
+		"/Users/alanna/Sites/web.pdx.edu/totoro/yataimura/js/parallax.js",
+		"/Users/alanna/Sites/web.pdx.edu/totoro/index.html",
+		"/Users/alanna/Sites/web.pdx.edu/totoro/css/style.css",
+		"/Users/alanna/Sites/flexwebdev/practice_interviews/eval_questions_answers/dog_api_eval_sol/index.js",
+		"/Users/alanna/Sites/web.pdx.edu/hot_ones_start/script.js",
+		"/Users/alanna/Sites/web.pdx.edu/hot_ones_start/img/hotones_placeholder.svg",
+		"/Users/alanna/Sites/web.pdx.edu/hot_ones_start/index.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/jackson-html-layout/index.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/jackson-html-layout/style.css",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/time.html",
+		"/Users/alanna/Sites/web.pdx.edu/html_template_v2.1/script.js",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/video.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/jquery_video.html",
+		"/Users/alanna/Sites/web.pdx.edu/hot_ones_start/style.css",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/hot_ones_start.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/animations/svg.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/css_one_file/index.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/css_one_file/about.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/css_one_file/portfolio.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/css_one_file/style.css",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/animations/keyframes.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/animations/transitions.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/animations/landing.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/jquery/intro.html",
+		"/Users/alanna/Sites/flexwebdev/demos/html_practice.html",
+		"/Users/alanna/Sites/web.pdx.edu/index.html",
+		"/Users/alanna/Sites/workshops/wkshop_portfolio_cssgrid/completed/style.css",
+		"/Users/alanna/Sites/workshops/wkshop_portfolio_cssgrid/index.html",
+		"/Users/alanna/Sites/flexwebdev/workshops/css-grid/grid_warm_up.html",
+		"/Users/alanna/Sites/alannarisse.github.io/docs/htmlandcss.md",
+		"/Users/alanna/Sites/tools/fun.html",
+		"/Users/alanna/Sites/web.pdx.edu/background_swap.html",
+		"/Users/alanna/Sites/web.pdx.edu/code_samples/parallax.html",
+		"/Users/alanna/Sites/flexwebdev/students/feedback/hoz_api_interview.txt",
+		"/Users/alanna/Dropbox/PSU/Student Work/HW1/ncoffman/five.html",
+		"/Users/alanna/Dropbox/PSU/Student Work/HW1/ncoffman/four.html",
+		"/Users/alanna/Dropbox/PSU/Student Work/HW1/ncoffman/one.html",
+		"/Users/alanna/Dropbox/PSU/Student Work/HW1/ncoffman/three.html",
+		"/Users/alanna/Dropbox/PSU/Student Work/HW1/ncoffman/two.html",
+		"/Users/alanna/Sites/web.pdx.edu/hw1-narrative/02pull.html",
+		"/Users/alanna/Sites/web.pdx.edu/html_learnin/test3.html",
+		"/Users/alanna/Sites/web.pdx.edu/hw1-narrative/aligning.html",
+		"/Users/alanna/Sites/web.pdx.edu/html_learnin/html_css_formatting.html",
+		"/Users/alanna/Sites/web.pdx.edu/html_learnin/style.css",
+		"/Users/alanna/Sites/art341-fa18.codelovecode.com/resources/htaccess",
+		"/Users/alanna/Sites/flexwebdev/students/hozefa/interview_not_pass.txt",
+		"/Users/alanna/Sites/workshops/wkshop_portfolio_cssgrid/completed/index.html",
+		"/Users/alanna/Sites/workshops/wkshop_portfolio_cssgrid/style.css",
+		"/Users/alanna/Sites/workshops/wkshop_portfolio_cssgrid/minmax.html",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/src/App.vue",
+		"/Users/alanna/Sites/tempinator5000/mocks/style.css",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/src/main.js",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/index.html",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/src/components/Header.vue",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/src/router/index.js",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/.eslintignore",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/src/components/WeatherOutput.vue",
+		"/Users/alanna/Sites/tempinator5000/package-lock.json",
+		"/Users/alanna/Sites/tempinator5000/README.md",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/src/components/WeatherForm.vue",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/package.json",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/node_modules/url-loader/package.json",
+		"/Users/alanna/Sites/tempinator5000/my_notes.md",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/src/components/Output.vue",
+		"/Users/alanna/Sites/tempinator5000/mocks/index.html",
+		"/Users/alanna/Sites/tempinator5000/tempinator-app/src/components/Home.vue",
+		"/Users/alanna/Sites/tempinator5000/.gitignore",
+		"/Users/alanna/Sites/tempinator5000/config_example.js",
+		"/Users/alanna/Sites/tempinator5000/config.js",
+		"/Users/alanna/Library/Application Support/Sublime Text 3/Installed Packages/VueFormatter.sublime-package/.vuebeautifyrc",
+		"/Users/alanna/Sites/workshops/wkshop_portfolio_cssgrid/notes.txt",
+		"/Users/alanna/Sites/workshops/wkshop_portfolio_cssgrid/content.txt",
+		"/Users/alanna/Sites/workshops/wkshop_portfolio_cssgrid/.gitignore",
+		"/Users/alanna/Sites/workshops/wkshop_portfolio_cssgrid/README.md",
+		"/Users/alanna/Dropbox/Thinkful/Students/Hozefa/Hozefa interview fundamentals",
+		"/Users/alanna/Sites/react-projects/music-player/src/reducers/albums-reducer.js",
+		"/Users/alanna/Sites/react-projects/music-player/src/actions/albums-actions.js",
+		"/Users/alanna/Sites/alannarisse.github.io/README.md",
+		"/Users/alanna/Sites/react-projects/music-player/src/actions/artists-actions.js",
+		"/Users/alanna/Sites/react-projects/music-player/src/App.css",
+		"/Users/alanna/Sites/react-projects/music-player/my_notes.txt",
+		"/Users/alanna/Sites/react-projects/music-player/src/index.js",
+		"/Users/alanna/Sites/react-projects/music-player/src/App.js",
+		"/Users/alanna/Sites/react-projects/todoapp/package.json",
+		"/Users/alanna/Sites/react-projects/music-player/src/reducers/artists-reducer.js",
+		"/Users/alanna/Sites/react-projects/alannafolio/src/index.js",
+		"/Users/alanna/Sites/react-projects/music-player/auth-server/authorization_code/app-example.js",
+		"/Users/alanna/Sites/react-projects/music-player/README.md",
+		"/Users/alanna/Sites/react-projects/music-player/auth-server/authorization_code/app.js",
+		"/Users/alanna/Sites/react-projects/music-player/.gitignore",
+		"/Users/alanna/Sites/react-projects/music-player/auth-server/.gitignore",
+		"/Users/alanna/Sites/react-projects/music-player/public/index.html",
+		"/Users/alanna/Sites/react-projects/music-player/package.json",
+		"/Users/alanna/Sites/react-projects/music-player/README_spotauth.md",
+		"/Users/alanna/Sites/react-projects/music-player/src/App.jsx",
+		"/Users/alanna/Sites/react-projects/countdown-app/README.md",
+		"/Users/alanna/Sites/react-projects/countdown-app/public/index.html",
+		"/Users/alanna/Sites/react-projects/countdown-champ/my_notes.txt",
+		"/Users/alanna/Sites/react-projects/countdown-app/package.json",
+		"/Users/alanna/Sites/react-projects/countdown-champ/src/Clock.jsx",
+		"/Users/alanna/Sites/react-projects/countdown-champ/package.json",
+		"/Users/alanna/Sites/react-projects/countdown-champ/src/App.jsx",
+		"/Users/alanna/Sites/react-projects/countdown-champ/public/index.html",
+		"/Users/alanna/Sites/react-projects/countdown-champ/.gitignore",
+		"/Users/alanna/Sites/code_tests/jsquiz_arisse.html",
+		"/Users/alanna/Sites/react-projects/testtodoapp/src/components/User.js",
+		"/Users/alanna/Sites/flexwebdev/classes/twitterbot/app_w_image.js",
+		"/Users/alanna/Desktop/bananaphone/BananaPhone.txt",
+		"/Users/alanna/Downloads/client_id.json",
+		"/Users/alanna/Sites/alannarisse.github.io/apis/youtube-search/yummly_alanna/app.js",
+		"/Users/alanna/Sites/alannarisse.github.io/apis/peeter_yummly/js/main.js",
+		"/Users/alanna/Sites/alannarisse.github.io/apis/peeter_yummly/index.html",
+		"/Users/alanna/Sites/alannarisse.github.io/apis/youtube-search/working-example/app.js",
+		"/Users/alanna/Desktop/jquery.html",
+		"/Users/alanna/Sites/alannarisse.github.io/apis/yummly/script.js",
+		"/Users/alanna/Sites/com.gitpage_feweb/workshops/bootstrap/bootstrap_workshop-master/css/style.css",
+		"/Users/alanna/Sites/com.gitpage_feweb/workshops/bootstrap/bootstrap_workshop-ar/css/style.css",
+		"/Users/alanna/Sites/com.gitpage_feweb/workshops/bootstrap/bootstrap_workshop-ar/index.html",
+		"/Users/alanna/Dropbox/Thinkful/student_code/Adriana/test.js",
+		"/Users/alanna/Sites/com.gitpage_feweb/ja_and_jquery/alannas_quiz_app/mockups/finish.html",
+		"/Users/alanna/Sites/sunflower/index.html",
+		"/Users/alanna/Sites/sunflower/myfun.js",
+		"/Users/alanna/Sites/com.gitpage_feweb/htmlcss/divs_and_grids/index.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 217.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "disney-poster/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dirt-harry/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 303.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "code_samples/time.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 75.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "webpdx.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
